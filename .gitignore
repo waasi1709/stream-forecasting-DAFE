@@ -26,6 +26,31 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# Environment files
+.env
+*.env
+
+# OS-generated
+.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data & outputs
+data/
+logs/
+outputs/
+checkpoints/
+
+# VS Code settings
+.vscode/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
